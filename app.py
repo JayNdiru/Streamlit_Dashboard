@@ -115,8 +115,18 @@ page = st.sidebar.radio(
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Data Sources**")
-st.sidebar.markdown("- 2021: CB Insights Unicorn List")
-st.sidebar.markdown("- 2026: [Crunchbase Unicorn List](https://news.crunchbase.com/unicorn-company-list) (March 2026)")
+st.sidebar.markdown(
+    "- 2021: [CB Insights Global Unicorn Club](https://www.cbinsights.com/research-unicorn-companies) "
+    "(936 companies, scraped Q4 2021)"
+)
+st.sidebar.markdown(
+    "- 2026: [Crunchbase Unicorn Board](https://news.crunchbase.com/unicorn-company-list) "
+    "(March 2026)"
+)
+st.sidebar.markdown(
+    "- Supplementary: [PitchBook](https://pitchbook.com/), "
+    "SEC/bankruptcy filings, company press releases"
+)
 st.sidebar.markdown("---")
 st.sidebar.markdown("*Quantic MSBA — Communicating with Data*")
 
@@ -631,7 +641,10 @@ elif page == "5. Investor Recommendation":
 
     st.markdown("---")
     st.caption(
-        "Data Sources: CB Insights Unicorn List (2021), Crunchbase Unicorn Company List (March 2026). "
+        "Data Sources: "
+        "[CB Insights Global Unicorn Club](https://www.cbinsights.com/research-unicorn-companies) (2021, 936 companies) · "
+        "[Crunchbase Unicorn Board](https://news.crunchbase.com/unicorn-company-list) (March 2026) · "
+        "Supplementary data from [PitchBook](https://pitchbook.com/), SEC/bankruptcy filings, and company press releases. "
         "Dashboard created for Quantic MSBA — Communicating with Data Presentation."
     )
 
