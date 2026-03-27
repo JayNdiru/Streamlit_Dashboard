@@ -660,29 +660,27 @@ elif page == "6. Ask the Data 🤖":
         "and the 2021→2026 comparison data."
     )
 
-    # ── API key input ──
-    api_key = st.sidebar.text_input(
-        "Groq API Key", type="password",
-        help="Free key from https://console.groq.com"
-    )
-
+    # ── Load API key from .streamlit/secrets.toml ──
     if not LLM_AVAILABLE:
         st.error("The `openai` package is not installed. Run: `pip install openai`")
         st.stop()
 
+    api_key = st.secrets.get("GROQ_API_KEY", "")
     if not api_key:
-        st.info("Enter your **free** Groq API key in the sidebar to start chatting.")
-        st.markdown(
-            "**Get your free key →** [console.groq.com](https://console.groq.com) "
-            "(no credit card required, 14,400 requests/day)\n\n"
-            "**Example questions you can ask:**\n"
-            "- Which industries had the highest failure rate between 2021 and 2026?\n"
-            "- What do the top 5 winners have in common?\n"
-            "- How much total value was destroyed by crypto-related companies?\n"
-            "- Compare the performance of US vs non-US unicorns.\n"
-            "- What investment advice would you give based on this data?"
+        st.error(
+            "Groq API key not found. Add it to `.streamlit/secrets.toml`:\n\n"
+            '```\nGROQ_API_KEY = "gsk_your_key_here"\n```'
         )
         st.stop()
+
+    st.markdown(
+        "**Example questions you can ask:**\n"
+        "- Which industries had the highest failure rate between 2021 and 2026?\n"
+        "- What do the top 5 winners have in common?\n"
+        "- How much total value was destroyed by crypto-related companies?\n"
+        "- Compare the performance of US vs non-US unicorns.\n"
+        "- What investment advice would you give based on this data?"
+    )
 
     # ── Build data context for the LLM (compact to stay within free tier) ──
     @st.cache_data
