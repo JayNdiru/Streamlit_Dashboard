@@ -27,6 +27,73 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# ──────────────────────────────────────────────
+# CUSTOM CSS
+# ──────────────────────────────────────────────
+st.markdown("""
+<style>
+/* ── Dark gradient sidebar ── */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+}
+section[data-testid="stSidebar"] * {
+    color: #e0e0e0 !important;
+}
+section[data-testid="stSidebar"] a {
+    color: #bb86fc !important;
+}
+
+/* ── Styled metric cards ── */
+div[data-testid="stMetric"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+div[data-testid="stMetric"] label {
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+}
+div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+
+/* ── Page title styling ── */
+h1 {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800 !important;
+}
+
+/* ── Blockquote accent ── */
+blockquote {
+    border-left: 4px solid #764ba2 !important;
+    background: rgba(118, 75, 162, 0.05);
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* ── Subheader styling ── */
+h2, h3 {
+    color: #e0e0e0 !important;
+}
+
+/* ── Chat input styling ── */
+.stChatInput textarea {
+    border-radius: 12px !important;
+}
+
+/* ── Divider ── */
+hr {
+    border-color: rgba(118, 75, 162, 0.3) !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 STATUS_COLORS = {
     "Thriving": "#2E8B57",
     "Stable": "#DAA520",
@@ -100,21 +167,31 @@ df_2021, df_merged = load_data()
 # ──────────────────────────────────────────────
 # SIDEBAR
 # ──────────────────────────────────────────────
-st.sidebar.title("🦄 Navigation")
+st.sidebar.markdown(
+    "<h2 style='text-align:center; margin-bottom:0;'>🦄</h2>"
+    "<h3 style='text-align:center; margin-top:0; "
+    "background:linear-gradient(90deg,#667eea,#bb86fc); "
+    "-webkit-background-clip:text; -webkit-text-fill-color:transparent;'>"
+    "Unicorn Dashboard</h3>",
+    unsafe_allow_html=True,
+)
+st.sidebar.caption("2021 vs 2026 · Investment Intelligence")
+st.sidebar.markdown("---")
+
 page = st.sidebar.radio(
     "Story Points",
     [
-        "1. The 2021 Unicorn Boom",
-        "2. Winners vs Losers",
-        "3. What Killed Them",
-        "4. What Made Them Win",
-        "5. Investor Recommendation",
-        "6. Ask the Data 🤖",
+        "📈 The 2021 Unicorn Boom",
+        "⚖️ Winners vs Losers",
+        "💀 What Killed Them",
+        "🚀 What Made Them Win",
+        "🎯 Investor Recommendation",
+        "🤖 Ask the Data",
     ],
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Data Sources**")
+st.sidebar.markdown("**📊 Data Sources**")
 st.sidebar.markdown(
     "- 2021: [CB Insights Global Unicorn Club](https://www.cbinsights.com/research-unicorn-companies) "
     "(936 companies, scraped Q4 2021)"
@@ -134,7 +211,7 @@ st.sidebar.markdown("*Quantic MSBA — Communicating with Data*")
 # ══════════════════════════════════════════════
 # STORY POINT 1: THE 2021 UNICORN BOOM
 # ══════════════════════════════════════════════
-if page == "1. The 2021 Unicorn Boom":
+if page == "📈 The 2021 Unicorn Boom":
     st.title("📈 The 2021 Unicorn Boom")
     st.markdown(
         "> In 2021, cheap capital and post-COVID digital acceleration created **700+ unicorn startups** "
@@ -216,7 +293,7 @@ if page == "1. The 2021 Unicorn Boom":
 # ══════════════════════════════════════════════
 # STORY POINT 2: WINNERS VS LOSERS
 # ══════════════════════════════════════════════
-elif page == "2. Winners vs Losers":
+elif page == "⚖️ Winners vs Losers":
     st.title("⚖️ Winners vs Losers: The 2021→2026 Shift")
     st.markdown(
         "> Five years later, the landscape is dramatically different. Some companies grew **100x+**, "
@@ -318,7 +395,7 @@ elif page == "2. Winners vs Losers":
 # ══════════════════════════════════════════════
 # STORY POINT 3: WHAT KILLED THEM
 # ══════════════════════════════════════════════
-elif page == "3. What Killed Them":
+elif page == "💀 What Killed Them":
     st.title("💀 What Killed Them: Anatomy of Failure")
     st.markdown(
         "> Over **$100B+ in value was destroyed** between 2021 and 2026. "
@@ -409,7 +486,7 @@ elif page == "3. What Killed Them":
 # ══════════════════════════════════════════════
 # STORY POINT 4: WHAT MADE THEM WIN
 # ══════════════════════════════════════════════
-elif page == "4. What Made Them Win":
+elif page == "🚀 What Made Them Win":
     st.title("🚀 What Made Them Win: The Growth Playbook")
     st.markdown(
         "> The biggest winners share clear patterns: **AI/LLM revolution, enterprise revenue models, "
@@ -518,7 +595,7 @@ elif page == "4. What Made Them Win":
 # ══════════════════════════════════════════════
 # STORY POINT 5: INVESTOR RECOMMENDATION
 # ══════════════════════════════════════════════
-elif page == "5. Investor Recommendation":
+elif page == "🎯 Investor Recommendation":
     st.title("🎯 Investor Recommendation: Where to Bet in 2026")
     st.markdown(
         "> Based on five years of unicorn data, here's where a late-stage investor should — "
@@ -652,7 +729,7 @@ elif page == "5. Investor Recommendation":
 # ══════════════════════════════════════════════
 # STORY POINT 6: ASK THE DATA (LLM ASSISTANT)
 # ══════════════════════════════════════════════
-elif page == "6. Ask the Data 🤖":
+elif page == "🤖 Ask the Data":
     st.title("🤖 Ask the Data: AI-Powered Insights")
     st.markdown(
         "> Use natural language to ask questions about the unicorn datasets. "
