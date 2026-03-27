@@ -1,0 +1,94 @@
+Company,valuation_2026_usd_b,status,reason_for_change,failure_category,success_category,Industry_2026,data_source
+Bytedance,480.0,Thriving,TikTok global dominance; diversified into AI and e-commerce; massive ad revenue growth,,Global Platform Scale,Artificial intelligence,Crunchbase 2026
+SpaceX,800.0,Thriving,Starlink satellite internet revenue; government contracts; dominant launch provider,,Space Economy + Government Contracts,Other,Crunchbase 2026
+Stripe,159.0,Thriving,Payment infrastructure backbone for internet economy; expanded to financial services,,Fintech Infrastructure,Fintech,Crunchbase 2026
+Klarna,0.0,IPO,IPO'd in 2024 after down-round from $45.6B to ~$6.7B in 2022; recovered partially pre-IPO,Market Correction,,Fintech,Public Market
+Canva,42.0,Stable,Maintained value with enterprise expansion; sticky product; profitable growth,,Enterprise SaaS,Internet software & services,Crunchbase 2026
+Instacart,0.0,IPO,IPO'd Sep 2023 at ~$10B; significant markdown from $39B 2021 valuation,Post-COVID Demand Drop,,Supply chain logistics & delivery,Public Market
+Databricks,134.0,Thriving,AI/ML data platform; massive enterprise adoption; benefited enormously from AI boom,,AI & Data Infrastructure,Data management & analytics,Crunchbase 2026
+Revolut,75.0,Thriving,Profitable neobank; 50M+ customers; banking license expansion across Europe and globally,,Neobank at Scale,Fintech,Crunchbase 2026
+Nubank,0.0,IPO,IPO'd Dec 2021; now largest digital bank in Latin America by market cap,,,Fintech,Public Market
+Epic Games,23.0,Declining,Fortnite revenue plateau; Unreal Engine growth offset by metaverse investment losses,Market Correction,,Other,Crunchbase 2026
+Chime,25.0,Stable,Maintained valuation; delayed IPO; profitable consumer neobank,,Consumer Fintech,Fintech,Crunchbase 2026
+FTX,0.0,Collapsed,Massive fraud by Sam Bankman-Fried; $8B+ customer funds missing; convicted 2023,Fraud,,Fintech,Bankruptcy Filing
+BYJU's,22.0,Declining,Severe governance issues; massive write-downs by investors; layoffs; auditor resignations; actual value near zero despite Crunchbase listing,Governance & Mismanagement,,Edtech,Crunchbase 2026
+Xiaohongshu,17.0,Stable,China's lifestyle social platform maintained user growth; slight valuation decline from geopolitical concerns,,Consumer Platform,E-commerce & direct-to-consumer,Crunchbase 2026
+Fanatics,31.0,Thriving,Sports commerce empire; expanded into sports betting and NFTs; diversified revenue,,Sports Commerce Ecosystem,E-commerce & direct-to-consumer,Crunchbase 2026
+Yuanfudao,17.0,Stable,Survived China edtech crackdown by pivoting; modest growth,,Pivot & Survive,Edtech,Crunchbase 2026
+DJI Innovations,15.0,Stable,Drone market leader; US regulatory headwinds offset by global demand,,Market Leadership,Hardware,Crunchbase 2026
+SHEIN,66.0,Thriving,Fast fashion giant; expanded to marketplace model; delayed IPO but massive revenue growth,,E-commerce Scale,E-commerce & direct-to-consumer,Crunchbase 2026
+Checkout.com,40.0,Thriving,Payment processing growth; enterprise clients; expanded globally,,Fintech Infrastructure,Fintech,Crunchbase 2026
+goPuff,15.0,Stable,Survived quick-commerce shakeout; restructured; maintained valuation on Crunchbase but real value likely lower,Unsustainable Unit Economics,,E-commerce & direct-to-consumer,Crunchbase 2026
+Plaid Technologies,13.5,Stable,Open banking infrastructure maintained value; steady enterprise growth,,Fintech Infrastructure,Fintech,Estimated
+Grammarly,13.0,Thriving,Rebranded to Superhuman; AI writing assistant benefited from GenAI wave,,AI-Powered Product,Internet software & services,Crunchbase 2026
+Devoted Health,13.0,Stable,Healthcare payer maintained valuation with Medicare Advantage growth,,Healthcare Growth,Health,Crunchbase 2026
+Faire,12.59,Stable,Wholesale marketplace maintained position; steady growth,,Marketplace,Artificial intelligence,Crunchbase 2026
+Brex,12.3,Stable,Corporate card fintech; maintained valuation despite competitive market,,Enterprise Fintech,Fintech,Estimated
+SenseTime,0.0,IPO,IPO'd Dec 2021 in Hong Kong; stock declined significantly; AI company in challenging China market,,,Artificial intelligence,Public Market
+JUUL Labs,38.0,Stable,Survived regulatory battles; Crunchbase shows high valuation but real operating value debated,,Regulatory Survival,Consumer & retail,Crunchbase 2026
+Bitmain Technologies,15.0,Thriving,Bitcoin mining hardware leader; benefited from crypto market recovery 2024-2026,,Crypto Recovery,Hardware,Crunchbase 2026
+Biosplice Therapeutics,12.0,Stable,Biotech maintained valuation; pipeline development continues,,Biotech Pipeline,Health,Crunchbase 2026
+GoodLeap,12.0,Stable,Clean energy financing maintained position,,Clean Energy Finance,Internet software & services,Crunchbase 2026
+Celonis,13.0,Thriving,Process mining leader; AI-enhanced product; strong enterprise sales,,Enterprise AI,Data management & analytics,Crunchbase 2026
+Lalamove,10.0,Stable,Asian logistics platform maintained valuation,,Logistics Scale,Supply chain logistics & delivery,Crunchbase 2026
+Ripple,40.0,Thriving,Crypto payment infrastructure; regulatory clarity improved; massive appreciation,,Crypto Infrastructure,Fintech,Crunchbase 2026
+Figma,0.0,IPO,Adobe acquisition blocked by regulators; remained private but IPO expected; valued at ~$12.5B,,,Internet software & services,Estimated
+reddit,0.0,IPO,IPO'd March 2024 at ~$6.4B; stock surged to ~$25B+ market cap,,Social Platform,Internet software & services,Public Market
+Notion Labs,11.0,Thriving,Productivity platform expanded with AI features; growing enterprise adoption,,AI-Enhanced Product,Internet software & services,Crunchbase 2026
+Thrasio,10.0,Collapsed,Amazon aggregator model failed; filed for bankruptcy April 2024; unsustainable economics,Unsustainable Unit Economics,,Other,Crunchbase 2026 (stale data)
+Digital Currency Group,10.0,Declining,Genesis subsidiary bankruptcy; Grayscale challenges; regulatory pressure,Crypto Contagion,,Fintech,Crunchbase 2026
+OpenAI,840.0,Thriving,ChatGPT launched Nov 2022; AI revolution leader; massive revenue growth to $13B+ ARR; largest private company valuation ever,,AI Revolution Leader,Artificial intelligence,Crunchbase 2026
+Argo AI,0.0,Collapsed,Ford and VW pulled funding Oct 2022; autonomous vehicle tech too expensive without clear path to commercialization,Technology Not Ready,,Artificial intelligence,Shut Down
+Anduril,31.0,Thriving,Defense tech boom; US/allied government contracts surged; AI-powered defense systems,,Defense Tech & Government,Artificial intelligence,Crunchbase 2026
+Scale AI,29.0,Thriving,AI data labeling/infrastructure; essential to training AI models; government AI contracts,,AI Infrastructure,Artificial intelligence,Crunchbase 2026
+Hopin,0.0,Collapsed,Virtual events demand collapsed post-COVID; sold parts to RingCentral for fraction,Post-COVID Demand Drop,,Internet software & services,Acquired/Dissolved
+Getir,0.0,Collapsed,Quick-commerce unsustainable; exited most markets; near-total value destruction despite $7.5B peak,Unsustainable Unit Economics,,E-commerce & direct-to-consumer,Near Bankruptcy
+Snyk,7.4,Stable,Developer security maintained position but growth slowed,,Developer Tools,Cybersecurity,Estimated
+Nuro,8.6,Stable,Autonomous delivery; slower growth than expected but maintained value,,Autonomous Delivery,Auto & transportation,Estimated
+Lacework,0.0,Collapsed,Cloud security company; laid off most staff; value collapsed despite $8.3B valuation,Market Correction,,Cybersecurity,Near Bankruptcy
+Ramp Financial,32.0,Thriving,Corporate card and finance automation; explosive revenue growth; AI-powered expense management,,AI-Powered Fintech,Fintech,Crunchbase 2026
+Wiz,10.0,Thriving,Cloud security leader; Google offered $23B acquisition (declined); now valued even higher in latest round,,Cybersecurity Market Leader,Cybersecurity,Crunchbase 2026
+Bolt,0.5,Collapsed,US payments company; CEO controversies; massive down-round; valuation collapsed from $11B,Governance & Mismanagement,,Fintech,Estimated
+Better.com,0.5,Collapsed,Mass layoffs via Zoom call scandal; SPAC at fraction of value; CEO controversies,Governance & Mismanagement,,Fintech,Public Market
+Clubhouse,0.1,Collapsed,Audio social app failed to retain users after COVID; active users dropped 95%+,Post-COVID Demand Drop,,Mobile & telecommunications,Estimated
+Celsius Network,0.0,Collapsed,Crypto lending platform; bankruptcy July 2022; customer funds frozen; CEO arrested,Crypto Contagion,,Fintech,Bankruptcy Filing
+BlockFi,0.0,Collapsed,Crypto lending platform; bankrupt Nov 2022 due to FTX contagion,Crypto Contagion,,Fintech,Bankruptcy Filing
+Dapper Labs,0.5,Declining,NFT market crashed; NBA Top Shot usage collapsed; massive layoffs,Crypto Contagion,,Fintech,Estimated
+Gemini,1.0,Declining,Crypto exchange survived but valued far below $7.1B peak; Earn product lawsuit,Crypto Contagion,,Fintech,Estimated
+Vice Media,0.0,Collapsed,Filed for bankruptcy May 2023; digital media model failed; sold for ~$350M,Unsustainable Unit Economics,,Internet software & services,Bankruptcy Filing
+Discord,15.0,Thriving,Communication platform grew to 200M+ MAU; diversified revenue beyond gaming,,Platform Growth,Internet software & services,Crunchbase 2026
+Automation Anywhere,6.8,Stable,RPA company maintained value; AI agent capabilities helped,,Enterprise Automation,Artificial intelligence,Estimated
+Impossible Foods,1.5,Declining,Plant-based meat demand declined; consumer interest faded; down-round,Post-COVID Demand Drop,,Consumer & retail,Estimated
+Convoy,0.0,Collapsed,Digital freight brokerage shut down Oct 2023; market downturn + high burn rate,Unsustainable Unit Economics,,Supply chain logistics & delivery,Shut Down
+VAST Data,30.0,Thriving,Data infrastructure for AI workloads; explosive growth as AI training data demands surged,,AI Data Infrastructure,Data management & analytics,Crunchbase 2026
+Cerebras Systems,23.0,Thriving,AI chip maker; alternative to NVIDIA; massive demand for AI compute,,AI Hardware,Hardware,Crunchbase 2026
+Vercel,9.0,Thriving,Web development platform; Next.js ecosystem; strong developer adoption,,Developer Platform,Internet software & services,Crunchbase 2026
+ClickHouse,15.0,Thriving,Real-time analytics database; enterprise data infrastructure demand surged,,Data Infrastructure,Data management & analytics,Crunchbase 2026
+Trade Republic,15.0,Thriving,European neobroker; expanded banking services; strong growth,,European Fintech,Fintech,Crunchbase 2026
+Rippling,17.0,Thriving,HR and IT management platform; rapid enterprise growth; AI features,,Enterprise HR Tech,Internet software & services,Crunchbase 2026
+Deel,17.0,Thriving,Global HR and payroll platform; benefited from remote work trend becoming permanent,,Remote Work Infrastructure,Fintech,Crunchbase 2026
+Applied Intuition,15.0,Thriving,Autonomous vehicle simulation/infrastructure; defense tech expansion,,Autonomous + Defense,Data management & analytics,Crunchbase 2026
+Olive,0.0,Collapsed,Healthcare AI company shut down 2023; overpromised AI automation; sold assets,Technology Not Ready,,Internet software & services,Shut Down
+Gusto,10.0,Stable,Payroll and HR for SMBs; maintained valuation; steady growth,,SMB Fintech,Fintech,Crunchbase 2026
+Samsara Networks,0.0,IPO,IPO'd Dec 2021; IoT for fleet management; stock performed well,,IoT Enterprise,Hardware,Public Market
+HashiCorp,0.0,Acquired,Acquired by IBM for $6.4B in 2024; infrastructure automation,,Enterprise Infrastructure,Internet software & services,Acquired
+Rubrik,0.0,IPO,IPO'd April 2024; data security company; strong market performance,,Data Security,Data management & analytics,Public Market
+ServiceTitan,0.0,IPO,IPO'd Dec 2024 at ~$9.5B; field service management,,Vertical SaaS,Internet software & services,Public Market
+Klaviyo,0.0,IPO,IPO'd Sep 2023; marketing automation for e-commerce; maintained value,,E-commerce Marketing,Internet software & services,Public Market
+Northvolt,12.0,Declining,European battery maker; filed for restructuring Nov 2024; production issues; massive capital needs,Unsustainable Unit Economics,,Other,Crunchbase 2026 (stale)
+Gorillas,0.0,Collapsed,Quick-commerce startup; acquired by Getir at fraction of $3.1B value; Getir also struggling,Unsustainable Unit Economics,,E-commerce & direct-to-consumer,Acquired at Loss
+IRL,0.0,Collapsed,Social app shut down June 2023; SEC investigation revealed 95% of users were bots,Fraud,,Internet software & services,Shut Down
+Sorare,0.5,Declining,NFT fantasy sports; market interest collapsed with NFT/crypto downturn,Crypto Contagion,,E-commerce & direct-to-consumer,Estimated
+Zume,0.0,Collapsed,Robot pizza startup; shut down operations; pivot to packaging failed,Technology Not Ready,,Consumer & retail,Shut Down
+BYTON,0.0,Collapsed,Chinese EV startup; never delivered a production vehicle; ran out of funding,Technology Not Ready,,Auto & transportation,Shut Down
+Quanergy Systems,0.0,Collapsed,LIDAR company; filed for bankruptcy Dec 2022; SPAC failure,Market Correction,,Auto & transportation,Bankruptcy Filing
+BlaBlaCar,2.0,Stable,European ride-sharing maintained position; profitable in key markets,,European Mobility,Auto & transportation,Estimated
+Calm,2.0,Stable,Meditation app maintained value; enterprise wellness expansion,,Consumer Wellness,Consumer & retail,Estimated
+1Password,2.0,Stable,Password management grew with cybersecurity awareness,,Cybersecurity Consumer,Cybersecurity,Estimated
+Whatnot,12.0,Thriving,Live shopping marketplace; massive growth; Gen-Z commerce platform,,Live Commerce,E-commerce & direct-to-consumer,Crunchbase 2026
+Replit,9.0,Thriving,AI-powered coding platform; benefited from AI coding revolution,,AI Developer Tools,Internet software & services,Crunchbase 2026
+ElevenLabs,11.0,Thriving,AI voice generation; rapid growth in 2024-2025; key AI infrastructure,,AI Voice & Media,Artificial intelligence,Crunchbase 2026
+Greensill,0.0,Collapsed,Supply chain finance company; collapsed March 2021; fraud and mismanagement,Fraud,,Fintech,Bankruptcy Filing
+Allbirds,0.5,Declining,Sustainable shoe brand; IPO'd Nov 2021 at $2B+; stock collapsed 90%+,Market Correction,,E-commerce & direct-to-consumer,Public Market
+Glossier,0.5,Declining,DTC beauty brand; struggled post-pandemic; new CEO attempted turnaround; valuation cut,Post-COVID Demand Drop,,Consumer & retail,Estimated
+InVision,0.0,Collapsed,Design tool; lost to Figma competition; shut down Jan 2024,Competitive Displacement,,Internet software & services,Shut Down

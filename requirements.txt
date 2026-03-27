@@ -1,0 +1,23 @@
+# Streamlit — chosen as the app framework because it turns Python scripts into
+# interactive web dashboards with minimal boilerplate (no HTML/CSS/JS needed),
+# has built-in support for charts, metrics, sidebar navigation, and chat UI,
+# and is specifically recommended by the Quantic assignment guidelines.
+streamlit>=1.30.0
+
+# Pandas — the standard Python library for tabular data manipulation; used to
+# load CSV data extracts, merge the 2021 and 2026 datasets, compute derived
+# metrics (growth multiples, value created/destroyed), and aggregate statistics.
+pandas>=2.0.0
+
+# Plotly — chosen over Matplotlib/Altair for its interactive, publication-quality
+# visualisations (hover tooltips, zoom, pan) that render natively in Streamlit.
+# Supports the chart types needed: bar, scatter, sunburst, waterfall, and pie.
+plotly>=5.18.0
+
+# OpenAI Python client — powers the optional "Ask the Data" LLM chat assistant
+# (Story Point 6). Used with Groq's OpenAI-compatible API to run Llama 3.3 70B
+# completely free (no credit card needed — get a key at console.groq.com).
+# Groq offers 14,400 free requests/day with the fastest LLM inference available.
+# This satisfies the assignment's suggestion to incorporate an LLM for
+# natural-language questions about the data.
+openai>=1.0.0
